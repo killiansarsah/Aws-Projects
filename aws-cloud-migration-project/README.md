@@ -1,5 +1,3 @@
-![killian_sarsah_architecture_diagram](https://github.com/user-attachments/assets/1383b7c6-30c2-41d2-aad3-7c939e87f938)# AWS Cloud Migration for a Scalable Web Application
-
 This project showcases the design and migration plan of a three-tier monolithic web application from on-premises to Amazon Web Services (AWS). It demonstrates best practices in cloud infrastructure, cost optimization, scheduling, scaling, and secure architecture design.
 
 ## 🧱 Architecture Overview

@@ -1,4 +1,4 @@
-# AWS Cloud Migration for a Scalable Web Application
+![killian_sarsah_architecture_diagram](https://github.com/user-attachments/assets/1383b7c6-30c2-41d2-aad3-7c939e87f938)# AWS Cloud Migration for a Scalable Web Application
 
 This project showcases the design and migration plan of a three-tier monolithic web application from on-premises to Amazon Web Services (AWS). It demonstrates best practices in cloud infrastructure, cost optimization, scheduling, scaling, and secure architecture design.
 
@@ -12,11 +12,12 @@ This project showcases the design and migration plan of a three-tier monolithic 
 - 🔐 IAM, Security Groups, and HTTPS via AWS Certificate Manager
 - ☁️ Backups with S3 and AWS Backup
 
-![Architecture Diagram](architecture/killian_sarsah_architecture_diagram.png)
+![killian_sarsah_architecture_diagram drawio](https://github.com/user-attachments/assets/6c7898a7-8a32-46d0-878b-c09b367bd1ce)
+
 
 ## 📋 Components
 
-- 📃 [Workplan & Strategy](docs/workplan.md)
+- 📃 [Workplan & Strategy]()
 - 🧰 [Inventory of AWS Services](docs/inventory-report.md)
 - 💰 [Cost Estimate](https://calculator.aws.amazon.com/#/estimate?id=...) *(Link placeholder)*
 
@@ -27,13 +28,7 @@ This project showcases the design and migration plan of a three-tier monolithic 
 - Decoupled the monolith for easier maintenance
 - Improved app uptime and disaster recovery via cloud backups
 
----
 
-## 📎 License
-
-This project is for educational and portfolio use. Feel free to fork and customize.
-
----
 
 **Killian Sarsah**  
 Cloud & Cybersecurity Enthusiast | [LinkedIn](https://linkedin.com/in/your-link) | [Upwork](https://www.upwork.com/freelancers/~01e979827cca6d421f)

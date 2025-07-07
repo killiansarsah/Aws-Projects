@@ -136,8 +136,8 @@ By the end of this project, I had:
 
 I'm **Killian Sarsah**, a Cloud & Data enthusiast and a graduate of the **AWS re/Start** program. I'm passionate about practical infrastructure projects like this one and enjoy documenting my hands-on experience with cloud tools.
 
-- 🔗 GitHub: [@killian25](https://github.com/killian25)  
-- 💼 LinkedIn: [Your LinkedIn Here](https://linkedin.com/in/your-profile)  
+- 🔗 GitHub: [@killian25](https://github.com/killian)  
+- 💼 LinkedIn: linkedin.com/in/killiansarsah/  
 
 
 

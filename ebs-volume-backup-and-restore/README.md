@@ -1,6 +1,8 @@
 # 💾 My AWS Project: Working with Amazon EBS via AWS Console 🖱️
 
+
 Hello! I'm **Killian Sarsah**, and this is a hands-on project I completed as part of the **AWS re/Start** program. In this project, I used only the **AWS Management Console** (🖱️ clicking, no terminal!) to manage **Amazon Elastic Block Store (EBS)** volumes, snapshots, and EC2 storage.
+
 
 > 💡 This README documents every step I took — just like a case study — with 📸 screenshot placeholders for each major action.
 
@@ -28,7 +30,6 @@ Hello! I'm **Killian Sarsah**, and this is a hands-on project I completed as par
 
 📌 This lab involved a **Lab EC2 Instance**, an **attached EBS volume**, and a **snapshot** that I used to create and restore a new volume.
 
-📸 `![Architecture Overview](images/archite)`
 
 
 

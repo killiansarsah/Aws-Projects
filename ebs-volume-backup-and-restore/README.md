@@ -4,7 +4,6 @@ Hello! I'm **Killian Sarsah**, and this is a hands-on project I completed as par
 
 > 💡 This README documents every step I took — just like a case study — with 📸 screenshot placeholders for each major action.
 
----
 
 ## 🌟 What I Achieved
 
@@ -14,15 +13,6 @@ Hello! I'm **Killian Sarsah**, and this is a hands-on project I completed as par
 ✅ I restored a volume from the snapshot  
 ✅ I reattached and verified the restored volume using the Console
 
----
-
-## 🗂️ Project Structure
-
-Everything for this project is explained in this README file. But here’s how you can organize files if you upload screenshots:
-
-
-
----
 
 ## 🛠️ Services Used
 
@@ -32,19 +22,19 @@ Everything for this project is explained in this README file. But here’s how y
 - ✅ EBS Snapshots (stored in Amazon S3)
 - ✅ EC2 Instance Connect (Web UI only — no CLI)
 
----
+
 
 ## 🗺️ Architecture Overview
 
 📌 This lab involved a **Lab EC2 Instance**, an **attached EBS volume**, and a **snapshot** that I used to create and restore a new volume.
 
-📸 `![Architecture Overview](images/architecture.png)`
+📸 `![Architecture Overview](images/archite)`
 
----
+
 
 ## 🚀 Step-by-Step Lab Walkthrough (No Terminal Used)
 
----
+
 
 ### 🧱 Step 1: Creating a New EBS Volume
 
@@ -57,9 +47,9 @@ Everything for this project is explained in this README file. But here’s how y
    - **Tag**: `Name = My Volume`
 4. I clicked **Create Volume** and confirmed it appeared with **state = Available**
 
-📸 `![Create EBS Volume](images/step1-ebs-volume.png)`
+📸 <img width="477" alt="image" src="https://github.com/user-attachments/assets/878aacf9-2f8d-48b3-a47e-2c71067fbcbf" />
 
----
+
 
 ### 🔗 Step 2: Attaching the Volume to an EC2 Instance
 
@@ -69,9 +59,8 @@ Everything for this project is explained in this README file. But here’s how y
 4. For **Device Name**, I selected `/dev/sdb`
 5. I clicked **Attach Volume** and saw the volume become **In-use**
 
-📸 `![Attach Volume](images/step2-attach-volume.png)`
+📸 <img width="959" alt="image" src="https://github.com/user-attachments/assets/6313ba38-f1cb-47dd-817d-dfac839cbcaa" />
 
----
 
 ### 💻 Step 3: Connecting to EC2 Instance (No Terminal Setup Required)
 
@@ -81,9 +70,11 @@ Everything for this project is explained in this README file. But here’s how y
 4. On the **EC2 Instance Connect** tab, I clicked **Connect** again
 5. A browser-based terminal window opened where the volume was visible after mounting via Console
 
-📸 `![Connect to EC2 Instance](images/step3-connect-instance.png)`
+📸 <img width="959" alt="image" src="https://github.com/user-attachments/assets/c6882661-58dd-4c20-afe6-488114710283" />
 
----
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/fdd7d218-384f-44fe-ac3d-b4f2fde65e97" />
+
+
 
 ### 📸 Step 4: Creating a Snapshot from the Volume
 
@@ -94,9 +85,8 @@ Everything for this project is explained in this README file. But here’s how y
 5. Clicked **Create Snapshot**
 6. Then, I went to the **Snapshots** tab to check progress (status changed from **Pending** to **Completed**)
 
-📸 `![Create Snapshot](images/step4-create-snapshot.png)`
+📸 <img width="959" alt="image" src="https://github.com/user-attachments/assets/f5dc5e4e-4b94-4e0f-a782-5c3ff764d488" />
 
----
 
 ### 🔁 Step 5: Creating a New Volume from the Snapshot
 
@@ -106,9 +96,8 @@ Everything for this project is explained in this README file. But here’s how y
 4. Added a tag: `Name = Restored Volume`
 5. Clicked **Create Volume**
 
-📸 `![Create Volume from Snapshot](images/step5-create-volume-from-snapshot.png)`
+📸 <img width="959" alt="image" src="https://github.com/user-attachments/assets/5faca4d2-c657-4173-be4c-bc680f927ca3" />
 
----
 
 ### 🔗 Step 6: Attaching the Restored Volume
 
@@ -118,9 +107,11 @@ Everything for this project is explained in this README file. But here’s how y
 4. For **Device Name**, I selected `/dev/sdc`
 5. Clicked **Attach Volume**
 
-📸 `![Attach Restored Volume](images/step6-attach-restored-volume.png)`
+📸 <img width="959" alt="image" src="https://github.com/user-attachments/assets/99c82b68-ccf0-4c7b-bc3b-78d9c2191749" />
 
----
+![image](https://github.com/user-attachments/assets/f290c185-d530-4558-bdca-c97078d9a5ee)
+
+
 
 ### ✅ Step 7: Verifying the Restored Volume (via Console & Browser Terminal)
 
@@ -128,9 +119,7 @@ Everything for this project is explained in this README file. But here’s how y
 2. Navigated to the new mount point in the file explorer panel
 3. I verified that the file I previously created (`file.txt`) existed in the restored volume
 
-📸 `![Verify Restored Volume](images/step7-verify-restored-volume.png)`
 
----
 
 ## 🎯 Final Outcome
 
@@ -142,7 +131,6 @@ By the end of this project, I had:
 ✅ Created a new volume from that snapshot  
 ✅ Attached and verified the restored volume using the AWS web interface
 
----
 
 ## 👨‍💻 About Me
 
@@ -150,9 +138,8 @@ I'm **Killian Sarsah**, a Cloud & Data enthusiast and a graduate of the **AWS re
 
 - 🔗 GitHub: [@killian25](https://github.com/killian25)  
 - 💼 LinkedIn: [Your LinkedIn Here](https://linkedin.com/in/your-profile)  
-- ✉️ Email: [your-email@example.com]
 
----
+
 
 ## 📚 References & Credits
 
@@ -160,10 +147,6 @@ I'm **Killian Sarsah**, a Cloud & Data enthusiast and a graduate of the **AWS re
 - [Amazon EC2 Documentation](https://docs.aws.amazon.com/ec2/)
 - [AWS re/Start Program](https://aws.amazon.com/training/restart/)
 
----
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
 
 
